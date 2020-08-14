@@ -1,0 +1,467 @@
+/**  Estilização Java-Script**/
+
+#raiz {
+    width: 1000px;
+    left: 50%;
+    position: relative;
+    margin-left: -500px;
+}
+
+span {
+    width:auto;
+    padding-top: 10px;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    color: #C84141;
+}
+
+.box {
+    background-color: rgba(51,51,51,0.5);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.box:hover{
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    transition: 2.1s;
+}
+
+/** Boots-Strap  **/
+
+.center {
+	max-width: 1280px;
+	padding: 0 4%;
+	margin: 0 auto;
+}
+
+.w33 {
+	width: 33.3%;
+    padding-bottom: 30px;
+}
+
+.w50 {
+    padding: 0 10px;
+	width: 50%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+ /** EStilização Menu & bannerPincipal**/
+
+body{
+    font-family: Quicksand;
+    font-weight: 300;
+}
+
+#home{
+    width: 100%;
+    height: 10px;
+    background: #F4F4F4;
+    float: left;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul li a {
+    color: A52A2A;
+}
+
+nav ul li a:hover{
+    padding-right: 5px;
+    text-decoration: none;
+    margin: 0;
+    color: black;
+    background: white;
+    transition: 2.1s;
+}
+
+nav.desktop ul {
+    padding-right: 90px;
+    padding-top: 30px;
+	position: relative;
+    right: 100px;
+	list-style-type: none;
+}
+
+nav.desktop li {
+	font-weight: 300;
+	font-size: 18px;
+	padding: 0 30px;
+	text-transform: uppercase;
+	display: inline-block;
+    border-right: 1px dotted #000000;
+    clear: both;
+}
+
+section.banner-principal {
+	width: 100%;
+	height: 400px;
+	background-image: url('Imagens/background15.png');
+	background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 12%;
+	z-index: 1;
+	background-color: rgba(51,51,51,0.1);
+}
+
+@media screen and(max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+} 
+
+/* Area Sobre*/
+
+.imagem-sobre img{
+    width: 53%;
+    padding-top: 80px;
+    padding-right: 130px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    float: right;
+}
+
+.autor-sobre{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.autor-sobre h2{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #C84141;
+   
+}
+
+.autor-sobre p{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    color: black;
+}
+
+.extras-sobre{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.extras-sobre h2{
+    border: 1px solid #dbdbdb;
+    background-color: rgba(51,51,51,0.2);
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    color: #C84141;
+}
+
+
+.depoimentos-container-sobre{
+    width: 33%;
+    padding: 0 30px;
+    text-align-last: center;
+}
+
+.depoimentos-container-sobre p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+}
+
+/* Area Serviços */
+
+section.especialidades {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #E2E2E2;   
+}
+
+.especialidades h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    color: #C84141;
+}
+
+section.especialidades .title{
+    font-size: 22px;
+    font-weight: 300;
+    color: #C84141;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.especialidades h3{
+    margin: 10px;
+    text-align: center;
+    color: #C84141;
+    font-size: 50px;
+}
+
+.especialidades p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #C84141;
+}
+
+/* Area Soluções */
+
+.imagem-solucoes img{
+    width: 43%;
+    padding-top: 85px;
+    padding-right: 130px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    float: right;
+}
+
+#solucoes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.descricao-solucoes {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.descricao-solucoes h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    color: #C84141;
+}
+
+.descricao-solucoes p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+}
+
+/* Area Beneficios */
+
+#beneficios h2{
+    margin: 0;
+    text-align: center;
+    background-color: #C84141;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+section.extras {
+    padding-bottom: 30px;
+    background-color: #C84141;
+    color: aliceblue;
+}
+
+.depoimentos-container,.servicos-container {
+    padding: 0 30px;
+}
+
+.depoimentos-container p,.servicos-container p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.servicos-container {
+    padding-top: 0px;
+}
+
+.depoimentos-single p {
+    padding: 10px 0;
+    text-align: justify;
+    border-bottom: 1px solid rgba(51,51,51,0.3);
+}
+
+/* Area de contatos */
+
+.nossos-contatos{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+/**
+.nossos-contatos h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: black;
+}
+**/
+
+#contato{
+    
+}
+
+.imagem-fale-conosco img{
+    width: 80%;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.nossos-contatos-imagem img{
+    width: 70%;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 80px;    
+}
+
+.nossos-contatos2{
+    padding: 190px;
+}
+
+.email-telefone{
+    font-size: 16px;
+    text-align: center;
+}
+
+.nossos-contatos label{
+    text-shadow: 2px 2px 2px #ccc;
+    display: inline-block;
+    float: left; 
+    margin-right:10px;
+    font-weight: 400;
+    margin-right:10px;
+    text-align: right;
+    width: 100px;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.input{
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 300px;
+    color: #797979;
+    resize:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.field {
+    position: relative;
+    display: block;
+    float:left;
+    margin:5px;
+    width: 100%;
+}
+
+.nossos-contatos2{
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    float: left;
+    text-align: center;
+}
+
+.email-telefone{
+    padding-top: 50px;
+    float: left;
+}
+
+.interior1{
+    width: 550px;
+    float: left;
+}
+
+.interior1 ul {
+    width: 550px;
+    margin: 0 0 30px;
+    float: left;
+}
+
+.interior1 ul li {
+    width: 230px;
+    height: 230px;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    float: left;
+    background: #C84141;
+    list-style: none;
+}
+
+.interior1 ul li h3{
+    padding-top: 18px;
+    font-size: 22px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.interior1 ul li p{
+    margin: 3px;
+    width: 100%;
+    font-size: 15px;
+    float: left;
+    list-style: none;
+    font-weight: 300;
+    text-align: center;
+    color: aliceblue;
+}
+
+.interior1 ul li p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Area Footer */
+
+footer {
+    background: #C84141;
+    padding: 3px 0;
+}
+
+footer p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+}
